@@ -1,0 +1,9 @@
+.marquee-container{
+    background-color: var(--nav-bg);
+    color: var(--white-color);
+    margin: 85px auto 0px;
+    width: 95%;
+}
+.initial-child-container .child span , .marquee .child span{
+    margin-right: 40px;
+}

@@ -1,0 +1,54 @@
+.latest-news {
+  width: 95%;
+  margin: auto;
+}
+
+.latest-news-list {
+  display: flex;
+}
+
+.news-card {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 19%;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.card-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-title {
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: var(--font-family);
+}
+
+.homepage .regional-news{
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+
+.state-news,.district-news{
+  padding: 10px;
+  text-align: justify;
+  width: 50%;
+}
+
+.state-news .state-news-list p, .district-news .district-news-list p{
+  /* font-size: 20px; */
+  text-transform: uppercase;
+  font-weight: 500;
+}

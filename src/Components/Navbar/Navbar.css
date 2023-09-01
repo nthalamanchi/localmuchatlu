@@ -1,0 +1,41 @@
+.lm-navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: var(--font-family);
+  z-index: 10;
+  background: var(--nav-bg);
+}
+
+.lm-navbar .lm-navbar-logo {
+  color: var(--white-color);
+}
+
+.lm-navbar .lm-navbar-lists {
+  color: var(--white-color);
+  font-family: var(--font-family);
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.lm-navbar .lm-navbar-lists li {
+  margin: auto;
+  transition: transform 0.3s linear;
+}
+
+.lm-navbar .lm-navbar-lists li a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.lm-navbar .lm-navbar-lists li:hover{
+  transform: scale(1.3);
+}
